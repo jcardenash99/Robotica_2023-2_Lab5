@@ -18,4 +18,4 @@ Inicialmente se utilizará el análisis DHT del anterior laboratorio, donde se e
 ### Tabla 1 parametros D_H robot pincher.
 
 Se van a establecer 4 angulos &theta;
-&theta;<sub>1</sub>;
+&theta;<sub>1</sub> dependerá uncamente de la posición angular de la primera articulación, la cual se encontrará sobre el plano X e Y. Es decir que la posición en X (P;<sub>x</sub>) y la posición en Y (P;<sub>y</sub>) determinarán el angulo con la función 
