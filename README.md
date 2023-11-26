@@ -16,3 +16,6 @@ Inicialmente se utilizará el análisis DHT del anterior laboratorio, donde se e
 ![](https://github.com/jcardenash99/Robotica_2023-2_Lab5/blob/main/Tabla%20D_H%20Pincher.png)
 
 ### Tabla 1 parametros D_H robot pincher.
+
+Se van a establecer 4 angulos &theta;
+&theta;<sub>1</sub>;
