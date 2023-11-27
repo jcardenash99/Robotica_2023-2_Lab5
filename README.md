@@ -17,7 +17,7 @@ Inicialmente se utilizará el análisis DHT del anterior laboratorio, donde se e
 
 ### Tabla 1 parametros D_H robot pincher.
 
-
+Teniendo estos parámetros de cinemática directa establecidos, podemos analizar la configuración.
 
 
 ## Cinemática Inversa
