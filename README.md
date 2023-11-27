@@ -75,7 +75,7 @@ sobre la superficie y retorna a una posici´on de espera.
 ubica en una posicion de Home.
 
 ## Análisis y resultados.
-A continucación se muestra las rutinas de movimiento del robot y las opciones de manipulacion por medio de la interfaz de usuario. 
+A continuación se muestra las rutinas de movimiento del robot y las opciones de manipulacion por medio de la interfaz de usuario. 
 Iniciamos con  la manipulación de la herramienta.
 
 [Coger Herramienta lab 5.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab5/assets/143892609/85e9ca6e-97e1-4593-9c51-1c5a9e062e0d)
@@ -98,9 +98,8 @@ Seguido a las inciciales se dibujan dos figuras geometricas un triangulo y un ci
 
 Finalmente al terminar las trayectorias, el robot retorna el marcador a la posición deonde lo cargo, abre el griper y retorna a su posición de home, terminando con ello la rutina.
 
+Como resultado de la programación y la ejecución del programa mediante el robot se evidencia que en el proceso hubo algunos movimientos bruscos en determinados puntos del trazado de las trayectorias. Esto se debe a que los controles de movimiento de los servomotores se deben hacer siguiendo perfiles de velocidad que permitan mantener el control tanto en aceleración, crucero y desaceleración, con el fin de que las trayectorias sean más estilizadas, sin embargo, cabe resaltar que la definición de las iniciales y las figuras geométricas son totalmente legibles cumpliendo con el objetivo de trazar las trayectorias siendo este totalmente funcional.
 
+## Conclusiones.
 
-
-
-## Conclusiones
 
