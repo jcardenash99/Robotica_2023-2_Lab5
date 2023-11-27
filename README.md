@@ -73,3 +73,5 @@ sobre la superficie y retorna a una posici´on de espera.
 • Dibujo de figura libre: Se dibuja sobre la superficie una figura libre que utilice segmentos rectos y curvos.
 • Descarga de la herramienta: el brazo se desplaza a la base porta herramienta, suelta el marcador y se
 ubica en una posicion de Home.
+
+## Conclusiones
