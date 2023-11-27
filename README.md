@@ -20,7 +20,7 @@ Inicialmente se utilizará el análisis DHT del anterior laboratorio, donde se e
 Se van a establecer 4 angulos &theta;
 &theta;<sub>1</sub> dependerá uncamente de la posición angular de la primera articulación, la cual se encontrará sobre el plano X e Y. Es decir que la posición en X (P<sub>x</sub>) y la posición en Y (P<sub>y</sub>) determinarán el angulo con la función mediante la función arcotangente, sabiendo que
 
-\(\tan(&theta;)\=\frac{P_y}{P_x}\)
+\tan(&theta;)\=\frac{P_y}{P_x}
 
 ## Cinemática Inversa
 ![Cinematica Inversa](https://github.com/jcardenash99/Robotica_2023-2_Lab5/assets/61796945/63825440-fd36-4e65-bbd4-3600af5e2ed4)
