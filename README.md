@@ -74,4 +74,11 @@ sobre la superficie y retorna a una posici´on de espera.
 • Descarga de la herramienta: el brazo se desplaza a la base porta herramienta, suelta el marcador y se
 ubica en una posicion de Home.
 
+## Análisis y resultados.
+A continucación se muestra las rutinas de movimiento del robot y las opciones de manipulacion por medio de la interfaz de usuario. 
+Iniciamos con  la manipulación de la herramienta.
+
+
+
+
 ## Conclusiones
