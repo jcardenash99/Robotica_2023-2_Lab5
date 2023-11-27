@@ -102,6 +102,6 @@ Como resultado de la programación y la ejecución del programa mediante el robo
 
 ## Conclusiones.
 
-En la generación de trayectorias se pudo evidenciar que tanto la programación y la parametrización van de la mano basados en la morfología y actuadores que componen el robot siendo estos primordiales para obtener un buen resultado en la programación de robots. 
+En la generación de trayectorias se pudo evidenciar que tanto la programación y la parametrización van de la mano basados en la morfología y actuadores que componen el robot siendo estos primordiales para obtener un buen resultado en la programación de robots. La cinemática inversa se vuelve esencial, ya que permite determinar las configuraciones de las articulaciones necesarias para alcanzar una posición y orientación específicas del extremo efectivo del manipulador. La implementación de la cinemática inversa en ROS implica conocer los parámetros geométricos y cinemáticos del robot y realizar cálculos para traducir los movimientos deseados del extremo efectivo a las variables de las articulaciones. La capacidad de llevar a cabo estos cálculos dentro del entorno modular de ROS facilita el diseño y ejecución eficiente de tareas de manipulación. Es esencial considerar limitaciones físicas, como límites de articulación y singularidades, así como realizar pruebas y validaciones en entornos simulados antes de implementar los movimientos en el hardware físico.
 
 
