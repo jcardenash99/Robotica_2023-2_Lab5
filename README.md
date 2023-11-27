@@ -82,6 +82,16 @@ Iniciamos con  la manipulación de la herramienta.
 
 Se observa como a partir del modo home se hace un desplazamiento al lugar donde se encuentra la herramienta con el griper abierto, una vez se posiciona para tomar la herramienta, cierra el griper y toma la herramienta desplazandose luego hacia el puento inicial de dnde dara inicio el trazo de trayectorias.
 
+[Dibujar Espacio de Trabajo lab 5.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab5/assets/143892609/6d9f83cd-f5ad-4125-a3a5-0ea201f04741)
+
+Una vez posicionado en el punto incial de trayectorias se hace el trazado del espacio de trbajo en el cual va a delimitar el la zona de trabajo para este caso esta comprendida entre dos semi circulos.
+
+
+
+
+
+
+
 
 ## Conclusiones
 
