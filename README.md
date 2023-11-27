@@ -17,15 +17,14 @@ Inicialmente se utilizará el análisis DHT del anterior laboratorio, donde se e
 
 ### Tabla 1 parametros D_H robot pincher.
 
-Se van a establecer 4 angulos &theta;
-&theta;<sub>1</sub> dependerá uncamente de la posición angular de la primera articulación, la cual se encontrará sobre el plano X e Y. Es decir que la posición en X (P<sub>x</sub>) y la posición en Y (P<sub>y</sub>) determinarán el angulo con la función mediante la función arcotangente, sabiendo que
+Teniendo estos parámetros de cinemática directa establecidos, podemos analizar la configuración.
 
-\(\tan(&theta;)\=\frac{P_y}{P_x}\)
 
 ## Cinemática Inversa
 ![Cinematica Inversa](https://github.com/jcardenash99/Robotica_2023-2_Lab5/assets/61796945/63825440-fd36-4e65-bbd4-3600af5e2ed4)
 
-Para la cinematica inversa, partimos de las posiciones geometricas en la cual 4 de los 5 angulos parten de analisis geometricos, el 5 angulo depende de si el gripper se encuentra abierto o cerrado.
+Para la cinematica inversa se van a establecer 4 angulos principales, por lo que partimos de las posiciones geometricas en la cual 4 de los 5 angulos parten de analisis geometricos, el 5 angulo depende de si el gripper se encuentra abierto o cerrado. Es decir que la posición en X (P<sub>x</sub>) y la posición en Y (P<sub>y</sub>) determinarán el angulo con la función mediante la función arcotangente
+
 
 ### Theta 1
 Para el angulo $\theta_1$ partimos de las posciones de x e y del gripper, en esta imagen podemos ver que el angulo $\theta_1$ es el angulo que forma el triangulo con catetos X e Y e hipotenusa r
@@ -199,6 +198,7 @@ elif caso==4:
 • Descarga de la herramienta: el brazo se desplaza a la base porta herramienta, suelta el marcador y se
 ubica en una posicion de Home.
 
+
 ```Python
 elif caso==5:
                 if Cargado==1:
@@ -234,3 +234,33 @@ Estos codigos son los codigos de desplazamiento basico, el caculo del vector de 
 Para los calculos de los puntos se requiere un vector de tiempo, esto con la intencion de no saturar el bueffer de datos enviados y permitirle al robot llegar a trazar estos puntos.
 
 Sumado a esto tenemos los codigos de publish del nodo de ros usados en los laboratorios anteriores, tambien se tienen los calculos de la cinematica directa usada en el anterior laboratorio.
+
+## Análisis y resultados.
+A continuación se muestra las rutinas de movimiento del robot y las opciones de manipulacion por medio de la interfaz de usuario. 
+Iniciamos con  la manipulación de la herramienta.
+
+[Coger Herramienta lab 5.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab5/assets/143892609/85e9ca6e-97e1-4593-9c51-1c5a9e062e0d)
+
+Se observa como a partir del modo home se hace un desplazamiento al lugar donde se encuentra la herramienta con el griper abierto, una vez se posiciona para tomar la herramienta, cierra el griper y toma la herramienta desplazandose luego hacia el puento inicial de dnde dara inicio el trazo de trayectorias.
+
+[Dibujar Espacio de Trabajo lab 5.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab5/assets/143892609/6d9f83cd-f5ad-4125-a3a5-0ea201f04741)
+
+Una vez posicionado en el punto incial de trayectorias se hace el trazado del espacio de trbajo en el cual va a delimitar el la zona de trabajo para este caso esta comprendida entre dos semi circulos.
+
+[Dibujo de Iniciales JWL lab 5 ‐ Hecho con Clipchamp.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab5/assets/143892609/1387cadb-8ec2-4631-834b-21b2a4fdf5a0)
+
+Una vez delimitada el área de trabajo dentro de ella se hace el grabado de las inciaales de cada uno de los integrantes del grupo JWL.
+
+[Dibujo de Figuras lab 5 ‐ Hecho con Clipchamp.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab5/assets/143892609/e92ad0cd-7f38-41a9-8215-a11f6b39b877)
+
+Seguido a las inciciales se dibujan dos figuras geometricas un triangulo y un circulo como complemento a las trayectorias.
+
+[Regreso de herramienta lab 5.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab5/assets/143892609/51dc7939-00cd-429c-8db0-575ab02d7a50)
+
+Finalmente al terminar las trayectorias, el robot retorna el marcador a la posición deonde lo cargo, abre el griper y retorna a su posición de home, terminando con ello la rutina.
+
+Como resultado de la programación y la ejecución del programa mediante el robot se evidencia que en el proceso hubo algunos movimientos bruscos en determinados puntos del trazado de las trayectorias. Esto se debe a que los controles de movimiento de los servomotores se deben hacer siguiendo perfiles de velocidad que permitan mantener el control tanto en aceleración, crucero y desaceleración, con el fin de que las trayectorias sean más estilizadas, sin embargo, cabe resaltar que la definición de las iniciales y las figuras geométricas son totalmente legibles cumpliendo con el objetivo de trazar las trayectorias siendo este totalmente funcional.
+
+## Conclusiones.
+
+En la generación de trayectorias se pudo evidenciar que tanto la programación y la parametrización van de la mano basados en la morfología y actuadores que componen el robot siendo estos primordiales para obtener un buen resultado en la programación de robots. La cinemática inversa se vuelve esencial, ya que permite determinar las configuraciones de las articulaciones necesarias para alcanzar una posición y orientación específicas del extremo efectivo del manipulador. La implementación de la cinemática inversa en ROS implica conocer los parámetros geométricos y cinemáticos del robot y realizar cálculos para traducir los movimientos deseados del extremo efectivo a las variables de las articulaciones. La capacidad de llevar a cabo estos cálculos dentro del entorno modular de ROS facilita el diseño y ejecución eficiente de tareas de manipulación. Es esencial considerar limitaciones físicas, como límites de articulación y singularidades, así como realizar pruebas y validaciones en entornos simulados antes de implementar los movimientos en el hardware físico.
