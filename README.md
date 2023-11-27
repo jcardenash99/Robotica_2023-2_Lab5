@@ -96,7 +96,7 @@ Seguido a las inciciales se dibujan dos figuras geometricas un triangulo y un ci
 
 [Regreso de herramienta lab 5.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab5/assets/143892609/51dc7939-00cd-429c-8db0-575ab02d7a50)
 
-Finnalmente al terminar las trayectorias el robot retorna el marcador a la posicion deonde lo cargo, abre el griper y retorma a su posición de home, termianando con ello la rutina.
+Finalmente al terminar las trayectorias, el robot retorna el marcador a la posición deonde lo cargo, abre el griper y retorna a su posición de home, terminando con ello la rutina.
 
 
 
