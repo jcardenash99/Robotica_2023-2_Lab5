@@ -78,7 +78,7 @@ ubica en una posicion de Home.
 A continucación se muestra las rutinas de movimiento del robot y las opciones de manipulacion por medio de la interfaz de usuario. 
 Iniciamos con  la manipulación de la herramienta.
 
-
+![](https://github.com/jcardenash99/Robotica_2023-2_Lab5/blob/main/Manipulacion.mp4)
 
 
 ## Conclusiones
