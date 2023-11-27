@@ -86,8 +86,17 @@ Se observa como a partir del modo home se hace un desplazamiento al lugar donde 
 
 Una vez posicionado en el punto incial de trayectorias se hace el trazado del espacio de trbajo en el cual va a delimitar el la zona de trabajo para este caso esta comprendida entre dos semi circulos.
 
+[Dibujo de Iniciales JWL lab 5 ‐ Hecho con Clipchamp.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab5/assets/143892609/1387cadb-8ec2-4631-834b-21b2a4fdf5a0)
 
+Una vez delimitada el área de trabajo dentro de ella se hace el grabado de las inciaales de cada uno de los integrantes del grupo JWL.
 
+[Dibujo de Figuras lab 5 ‐ Hecho con Clipchamp.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab5/assets/143892609/e92ad0cd-7f38-41a9-8215-a11f6b39b877)
+
+Seguido a las inciciales se dibujan dos figuras geometricas un triangulo y un circulo como complemento a las trayectorias.
+
+[Regreso de herramienta lab 5.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab5/assets/143892609/51dc7939-00cd-429c-8db0-575ab02d7a50)
+
+Finnalmente al terminar las trayectorias el robot retorna el marcador a la posicion deonde lo cargo, abre el griper y retorma a su posición de home, termianando con ello la rutina.
 
 
 
