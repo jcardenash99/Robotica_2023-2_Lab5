@@ -77,7 +77,7 @@ ubica en una posicion de Home.
 ## Análisis y resultados.
 A continucación se muestra las rutinas de movimiento del robot y las opciones de manipulacion por medio de la interfaz de usuario. 
 Iniciamos con  la manipulación de la herramienta.
-![](https://github.com/jcardenash99/Robotica_2023-2_Lab5/blob/main/Manipulacion.mp4)
+![](https://github.com/jcardenash99/Robotica_2023-2_Lab5/blob/main/Coger%20Herramienta%20lab%205.webm)
 Se observa como a partir del modo home se hace un desplazamiento al lugar donde se encuentra la herramienta con el griper abierto, una vez se posiciona para tomar la herramienta, cierra el griper y toma la herramienta desplazandose luego hacia el puento inicial de dnde dara inicio el trazo de trayectorias.
 
 
