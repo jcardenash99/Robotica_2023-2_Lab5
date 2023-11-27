@@ -102,4 +102,6 @@ Como resultado de la programación y la ejecución del programa mediante el robo
 
 ## Conclusiones.
 
+En la generación de trayectorias se pudo evidenciar que tanto la programación y la parametrización van de la mano basados en la morfología y actuadores que componen el robot siendo estos primordiales para obtener un buen resultado en la programación de robots. 
+
 
